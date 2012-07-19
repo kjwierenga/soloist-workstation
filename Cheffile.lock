@@ -1,0 +1,10 @@
+GIT
+  remote: https://github.com/pivotal/pivotal_workstation.git
+  ref: master
+  sha: 2596e9cff8c5e4fe1b6f58e812ff65376c62e755
+  specs:
+    pivotal_workstation (1.0.0)
+
+DEPENDENCIES
+  pivotal_workstation (>= 0)
+

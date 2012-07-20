@@ -1,0 +1,5 @@
+cookbook_paths:
+- ./workstation/cookbooks
+recipes:
+- pivotal_workstation::ack
+- pivotal_workstation::mysql

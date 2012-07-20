@@ -12,17 +12,21 @@ Usage
 
 Get the repo
 
+    cd $HOME
     git clone https://github.com/kjwierenga/workstation.git
 
 Install the gem bundle
 
-    cd workstation
+    cd $HOME/workstation
     gem install bundler # if you don't have it already
     bundle
 
-Create soloistrc configuration file in $HOME
+Create soloistrc configuration file in $HOME. This is where you list the recipes to run to install and configure software.
 
-    ln -s workstation/soloistrc $HOME/solistrc
+    ln -s $HOME/workstation/soloistrc $HOME/solistrc
+
+Run soloist to apply the recipes specified in $HOME/soloistrc.
+
     soloist
 
 References

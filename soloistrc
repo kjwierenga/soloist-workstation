@@ -1,5 +1,19 @@
 cookbook_paths:
-- ./workstation/cookbooks
+- ./cookbooks
 recipes:
 - pivotal_workstation::ack
+- pivotal_workstation::rvm
+- pivotal_workstation::bash_profile-no_sudo_gem_install
 - pivotal_workstation::mysql
+- pivotal_workstation::gem_no_rdoc_no_ri
+- pivotal_workstation::git-flow
+- pivotal_workstation::id3lib
+- pivotal_workstation::libshout
+- pivotal_workstation::sphinx
+- pivotal_workstation::redis
+- pivotal_workstation::memcached
+
+node_attributes:
+  rvm:
+    rubies:
+      ree: {}

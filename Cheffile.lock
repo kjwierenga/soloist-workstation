@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/kjwierenga/pivotal_workstation.git
   ref: master
-  sha: 57cd20fad18315be158f6e5036f73715ab1b8182
+  sha: 90b9cce63c5e5b5365638c97896b87a1f0b8939a
   specs:
     pivotal_workstation (1.0.0)
 

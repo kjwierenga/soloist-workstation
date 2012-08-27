@@ -1,6 +1,9 @@
 #!/usr/bin/env ruby
 #^syntax detection
 
+# Cheffile for librarian-chef
+# Run `librarian-chef install` to install all specified recipes and their dependencies
+
 site 'http://community.opscode.com/api/v1'
 
 cookbook 'pivotal_workstation',

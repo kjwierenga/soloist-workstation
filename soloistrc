@@ -12,6 +12,7 @@ recipes:
 - pivotal_workstation::sphinx
 - pivotal_workstation::redis
 - pivotal_workstation::memcached
+- pivotal_workstation::skype
 
 node_attributes:
   rvm:
